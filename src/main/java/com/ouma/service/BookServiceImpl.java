@@ -5,7 +5,7 @@ import com.ouma.pojo.Books;
 
 import java.util.List;
 
-public class BookServiceImpl {
+public class BookServiceImpl implements BookService {
     //调用mapper层的操作，设置一个set接口，方便Spring管理
     private BookMapper bookMapper;
     public void setBookMapper(BookMapper bookMapper) {
