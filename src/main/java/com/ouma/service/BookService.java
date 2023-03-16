@@ -15,4 +15,6 @@ public interface BookService {
     Books queryBookById(int id);
     //查询全部Book,返回list集合
     List<Books> queryAllBook();
+    //根据id查询,返回一个Book
+    Books queryBookByName(String bookName);
 }
