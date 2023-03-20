@@ -21,7 +21,7 @@
         <property name="dataSource" ref="dataSource" />
     </bean>
 
-<!--    &lt;!&ndash;注解实现AOP&ndash;&gt;-->
-<!--    <bean id="annotationPointcut" class="com.ouma.config.AnnotationPointcut"/>-->
-<!--    <aop:aspectj-autoproxy/>-->
+    <!--注解实现AOP-->
+    <bean id="annotationPointcut" class="com.ouma.config.AnnotationPointcut"/>
+    <aop:aspectj-autoproxy/>
 </beans>
